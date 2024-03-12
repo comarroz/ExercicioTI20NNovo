@@ -239,5 +239,135 @@ namespace ExercíciosTI20N
 
         }//Fim do Exercício Dezesseis
 
+
+        // Exercicio 17: Faça um programa que peça ao usuário um número e imprima o dobro desse numero.
+        public int ExercicioDezessete( int num)
+       
+        {
+            int resultado = 0;
+
+
+
+            resultado = num * 2;
+
+
+            return resultado;
+
+
+        }// fim do método 
+
+        // Exercicio 18:Faça um programa que peça ao usuário dois números e imprima a média deles.
+        public double ExercicioDezoito(double num1, double num2)
+
+        {
+            double resultado = 0;
+            resultado = num1 + num2 / 2;
+
+            return resultado;
+
+
+        }// Fim do médoto
+
+        // Exercicio 19: Faça um programa que converta a temperatura de Celsius para Fahrenheit. A fórmula é F + C * 9/5 + 32.
+
+        public double ExercicioDezenove(double celsius)
+
+
+        {
+
+           double fahreinheit = 0;
+            fahreinheit = celsius * 9 / 5 + 32;
+
+            return fahreinheit;
+
+
+
+        }//fim do método
+
+
+        // Exercicio 20: Faça um progframa que peça o raio de um círculo e imprima a área. A fórmula é A = pi * raio^2.
+        public  double ExercicioVinte(double raio)
+        {
+            return Math.PI * Math.Pow(raio, 2);
+
+
+
+        }// fim do método
+
+        // Exercicio 21: Faça um programa que peça umn numero e imprima o seu quadrado.
+        public double ExercicioVinteUm(double num)
+        {
+             return num * 2;
+
+
+
+
+        }//fim do método
+
+
+
+        //Exercicio 22: Faça um programa que peça dois numeros  e imprima o maior deles.
+        public int ExercicioVinteDois(int nun1, int nun2)
+        {
+            if (nun1 > nun2)
+            {
+
+                return  nun1;
+            }
+
+            else
+            {
+
+                return nun2;
+            }
+
+
+
+        }// fim do Método
+
+        //Exercicio 23: Faça um programa que peça dois números e imprima "São iguais"  
+        // se os númerios forem iguais ou imprima "São diferentes' se forem diferentes.
+        public string ExercicioVinteTrez(int primeiro, int segundo)
+        {
+            if ( primeiro == segundo)
+            {
+
+                return "São iguais";
+            }
+
+            else
+            {
+
+                return "São diferentes";
+            }
+
+
+
+        }// fim do metodo
+
+
+        //Exercicio 24: Faça um programa que peça a idade do usuario e imprima se ele é meior de idade ou menor de idade 
+        public string ExercicioVinteQuatro(int maior)
+        {
+            if (maior > 18)
+            {
+
+                return "Maior de iadade";
+            }
+            else 
+            {
+
+                return "Menor de idade";
+            }
+
+
+
+        }// fim do método 
+
+        //Exercicio 25: Faça um programa que peça dois numeros e imprima o menor deles.
+        public int ExercicioVinteCinco(int )
+
+
+
     }//Fim da Classe
 }//Fim do Projeto
