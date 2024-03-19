@@ -365,7 +365,171 @@ namespace ExercíciosTI20N
         }// fim do método 
 
         //Exercicio 25: Faça um programa que peça dois numeros e imprima o menor deles.
-        public int ExercicioVinteCinco(int )
+        public int ExercicioVinteCinco(int camada1,int camada2 )
+        {
+            if ( camada1 < camada2)
+            {
+
+                return camada1;
+            }
+
+            else
+            {
+
+                return camada2;
+            }
+
+
+
+
+
+        }// Fim do método
+
+        //Exercicio 26:  Faça um programa que peça a altura e o peso de uma pessoa e.
+        //calcule o IMC (Índice de Massa Corporal). A fórmula é IMC = peso / altura^2.
+        public double ExercicioVinteSeis(double peso, double altura)
+        {
+            double IMC;
+
+            IMC = peso / altura * 2;
+           
+
+                return IMC;
+           
+
+
+
+        }// fim do método
+
+
+        //Exercício 27: Faça um algoritmo que leia a idade de uma pessoa expressa em anos,
+        //meses e dias e escreva a idade dessa pessoa expressa apenas em dias.
+        //Considerar ano com 365 dias e mês com 30 dias.
+        public string ExercicioVinteSete(int idade, int mes, int dias)
+        {
+
+         
+
+            return  " Sua Idade Expressa em dias é: " + idade * 365 + mes * 30 + dias * 7; 
+
+
+
+        }// Fim do Método
+
+
+        //Exercício 28:  Ler o salário fixo e o valor das vendas efetuadas pelo
+        //vendedor de uma empresa.Sabendo-se que ele recebe uma
+        //comissão de 3% sobre o total das vendas até R$ 1.500,00
+        //mais 5% sobre o que ultrapassar este valor, calcular e
+        //escrever o seu salário total
+        
+        public double ExercicioVinteOito(double salario, double vendas)
+        {
+            double comissao = 0;
+           
+
+
+            if( vendas <= 1500)
+            { 
+              return comissao = vendas + (vendas * 0.03);
+
+            }
+            else
+            {
+                return comissao = salario + (1500 * 0.03) + (1500 - vendas) * 0.05;
+            }
+
+           
+
+               
+               
+       
+            
+        }
+
+        //Exercício 29: Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
+        public int ExercícioVinteNove()
+        {
+
+            int contNegativos = 0;
+            int num = 0;
+
+
+            for (int i = 0; i < 10; i++)
+            {
+
+                Console.WriteLine($"Digite o valor: ");
+                num = Convert.ToInt32(Console.ReadLine());
+
+                if (num < 0)
+                {
+                    contNegativos++;
+                }
+            }
+
+
+            return contNegativos;
+        }//Fim do Vinte Nove
+
+        //Exercício 30: Escreva um algoritmo para ler 10 números. Todos os
+        //números lidos com valor inferior a 40 devem ser somados.
+        //Escreva o valor final da soma efetuada
+        public int ExercicioTrinta()
+        {
+                int soma = 0;
+                int num = 0;
+
+            for (int i = 0; i <= 10; i++) 
+
+            {
+
+                    Console.WriteLine("Digite o valor: ");
+                    num = Convert.ToInt32(Console.ReadLine());
+
+                    if (num > 40)
+                    {
+                     soma += num;
+                    
+                    }
+
+
+          
+
+            }//Fim do for
+                
+            return soma;
+
+
+
+
+        }//Fim do método
+
+        //Exercício 31: Escreva um algoritmo que permita a leitura das notas de
+        //uma turma de 20 alunos.Calcular a média da turma.Escrever a média da turma.
+        public int ExercicioTrintaeDois()
+        {
+            int soma = 0;
+            int media = 0;
+            int nota = 0;
+            
+            for(int i = 0; i <= 20; i++)
+            {
+                if(nota < 20)
+
+
+
+
+            }
+
+
+
+
+
+
+
+
+        }
+
 
 
 

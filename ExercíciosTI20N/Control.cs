@@ -41,8 +41,14 @@ namespace ExercíciosTI20N
                              "20.Exercicio 20\n" +
                              "21.Exercicio 21\n" +
                              "22.Exercicio 22\n" +
-                             "23.Exercicio 23\n"+
-                             "24.Exercicio 24/n");
+                             "23.Exercicio 23\n" +
+                             "24.Exercicio 24\n" +
+                             "25.Exercicio 25\n" +
+                             "26.Exercicio 26\n" +
+                             "27.Exercicio 27\n" +
+                             "28.Exercicio 28\n" +
+                             "29.Exercicio 29\n" +
+                             "30.Exercicio 30\n");
         }//Fim do Menu
 
         public void Operacao()
@@ -193,6 +199,55 @@ namespace ExercíciosTI20N
                         int maior = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine(modelo.ExercicioVinteQuatro(maior));
+                        break;
+                    case 25:
+                        Console.WriteLine("Informe um número: ");
+                        int camada1 = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe outro número: ");
+                        int camada2 = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine(modelo.ExercicioVinteCinco(camada1, camada2));
+                        break;
+                    case 26:
+                        Console.WriteLine("Informe seu peso: ");
+                        double peso = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe sua altura: ");
+                        double altura = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine(modelo.ExercicioVinteSeis( peso, altura));
+                        break;
+                    case 27:
+                        Console.WriteLine("Informe sua idade: ");
+                        int idade = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe seus meses: ");
+                        int mes = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe os dias: ");
+                        int dias = Convert.ToInt32(Console.ReadLine());
+
+                     
+
+                        Console.WriteLine(modelo.ExercicioVinteSete(idade, mes, dias ));
+                        break;
+
+                    case 28:
+                        Console.WriteLine("Informe o salário: ");
+                        double salario = Convert.ToDouble(Console.ReadLine());
+
+                        Console.WriteLine("Informe a venda: ");
+                        double vendas = Convert.ToDouble(Console.ReadLine());
+
+
+                        Console.WriteLine(modelo.ExercicioVinteOito(salario, vendas));
+                        break;
+                    case 29:
+                        Console.WriteLine(modelo.ExercícioVinteNove());
+                        break;
+                    case 30:
+                        Console.WriteLine(modelo.ExercicioTrinta());
                         break;
 
 
